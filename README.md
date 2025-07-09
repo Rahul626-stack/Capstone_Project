@@ -19,16 +19,14 @@ This project is a **real-time dynamic pricing system** for urban parking lots, w
 
 ## Architecture Diagram
 
-```mermaid
 graph TD
     A[CSV Streaming Data] --> B[Pathway Replay CSV Source]
-    B --> C[Windowing and Aggregation (30-min tumbling)]
-    C --> D[Dynamic Demand Computation]
-    D --> E[Dynamic Price Computation]
+    B --> C[Windowed Aggregation - 30 min Tumbling]
+    C --> D[Compute Demand]
+    D --> E[Compute Price]
     E --> F[Hourly Price Table]
-    F --> G[Real-time Bokeh + Panel Plot]
-    F --> H[CSV Output for Historical Analysis]
-```
+    F --> G[Real-time Plot (Bokeh + Panel)]
+    F --> H[Export CSV]
 
 ---
 
