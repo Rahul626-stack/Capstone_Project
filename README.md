@@ -18,15 +18,20 @@ This project is a **real-time dynamic pricing system** for urban parking lots, w
 ---
 
 ## Architecture Diagram
-
-graph TD
-    A[CSV Streaming Data] --> B[Pathway Replay CSV Source]
-    B --> C[Windowed Aggregation - 30 min Tumbling]
-    C --> D[Compute Demand]
-    D --> E[Compute Price]
-    E --> F[Hourly Price Table]
-    F --> G[Real-time Plot (Bokeh + Panel)]
-    F --> H[Export CSV]
+---
+config:
+  layout: dagre
+  theme: neo-dark
+  look: neo
+---
+flowchart TD
+    A["CSV Streaming Data"] --> B["Pathway Replay CSV Source"]
+    B --> C["Windowed Aggregation - 30 min Tumbling"]
+    C --> D["Compute Demand"]
+    D --> E["Compute Price"]
+    E --> F["Half Hourly Price Table"]
+    F --> G["Real-time Plot - Bokeh + Panel"] & H["Export CSV"]
+    H --> I["Multi Line Static Plots"]
 
 ---
 
