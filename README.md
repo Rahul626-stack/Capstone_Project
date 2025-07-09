@@ -66,6 +66,8 @@ cons:
 
 **Static Multi-line Plot (Model 1)**:&#x20;
 
+![Error_Loading](Model_1_static_plots.png)
+
 ---
 
 ### Model 2: Advanced Demand-Based Model
@@ -91,6 +93,8 @@ cons:
 ![Error_Loading](https://github.com/Rahul626-stack/Capstone_Project/blob/main/Model_2_real_time_plot.png)
 
 **Static Multi-line Plot (Model 2)**:&#x20;
+
+![Error_Loading](Model_2_static_plots.png)
 
 ---
 
