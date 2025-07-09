@@ -19,7 +19,7 @@ This project is a **real-time dynamic pricing system** for urban parking lots, w
 
 ## Architecture Diagram
 ---
-![Error_Loading](https://www.mermaidchart.com/app/projects/282819b0-75f7-4401-892e-fd0f01709670/diagrams/606acdd9-5cf5-4819-815a-2d1d17416aa5/version/v0.1/edit)
+![Error_Loading](https://github.com/Rahul626-stack/Capstone/blob/main/Untitled%20diagram%20_%20Mermaid%20Chart-2025-07-09-142819.png)
 ---
 
 ## Architecture & Workflow
