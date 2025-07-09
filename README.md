@@ -53,9 +53,10 @@ graph TD
 ```python
 Price = 10 + alpha * (Occupancy / Capacity) * VehicleWeight * (1 + beta * IsSpecialDay)
 ```
-
-- ✔ Fast, low-latency pricing
-- ❌ Less context-aware (ignores traffic, queue)
+pros:
+-  Fast, low-latency pricing
+cons:
+-  Less context-aware (ignores traffic, queue)
 
 **Real-Time Price Plot (Model 1)**:&#x20;
 
@@ -74,10 +75,11 @@ Demand = ALPHA * (Occupancy / Capacity)
 
 Price = BASE_PRICE * (1 + LAMBDA * Demand)
 ```
-
-- ✔ Richer contextual signals
-- ✔ Controlled price range (\$10 to \$25)
-- ❌ Slightly more compute-heavy
+pros:
+-  Richer contextual signals
+-  Controlled price range (\$10 to \$25)
+cons:
+-  Slightly more compute-heavy
 
 **Real-Time Price Plot (Model 2)**:&#x20;
 
