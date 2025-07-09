@@ -19,20 +19,7 @@ This project is a **real-time dynamic pricing system** for urban parking lots, w
 
 ## Architecture Diagram
 ---
-config:
-  layout: dagre
-  theme: neo-dark
-  look: neo
----
-flowchart TD
-    A["CSV Streaming Data"] --> B["Pathway Replay CSV Source"]
-    B --> C["Windowed Aggregation - 30 min Tumbling"]
-    C --> D["Compute Demand"]
-    D --> E["Compute Price"]
-    E --> F["Half Hourly Price Table"]
-    F --> G["Real-time Plot - Bokeh + Panel"] & H["Export CSV"]
-    H --> I["Multi Line Static Plots"]
-
+![Error_Loading]("C:\Users\rahul\Downloads\Untitled diagram _ Mermaid Chart-2025-07-09-142819.png")
 ---
 
 ## Architecture & Workflow
