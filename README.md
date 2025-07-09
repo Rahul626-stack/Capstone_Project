@@ -1,4 +1,4 @@
-# Capstone Project (Dynamic Pricing Model For Parking Plot)
+# Capstone Project (Dynamic Pricing Model For Parking)
 
 ## Overview
 
