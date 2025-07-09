@@ -55,6 +55,7 @@ Price = 10 + alpha * (Occupancy / Capacity) * VehicleWeight * (1 + beta * IsSpec
 ```
 pros:
 -  Fast, low-latency pricing
+
 cons:
 -  Less context-aware (ignores traffic, queue)
 
