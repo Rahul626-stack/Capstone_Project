@@ -36,7 +36,7 @@ graph TD
 
 - Raw parking data is read from a CSV (`dataset.csv`) containing columns like `Timestamp`, `SystemCodeNumber`, `VehicleType`, `Occupancy`, `QueueLength`, `TrafficConditionNearby`, etc.
 - `VehicleType` is mapped to a numerical weight (car: 1.0, bike: 0.8, etc.).
-- `TrafficConditionNearby` is normalized into numeric values (Low: 0.0, Medium: 0.5, High: 1.0).
+- `TrafficConditionNearby` is normalized into numeric values (low: 0.0, average: 0.5, high: 1.0).
 - Processed data is saved into `parking_stream.csv`.
 
 ### 2. **Real-Time Stream Processing**
