@@ -8,7 +8,7 @@ This project is a **real-time dynamic pricing system** for urban parking lots, w
 
 ## Tech Stack
 
-- **Python 3.11**
+- **Python 3**
 - **Pathway** – Real-time dataflow and streaming analytics
 - **Pandas** – Preprocessing and CSV operations
 - **Bokeh** – Visualization
@@ -112,20 +112,4 @@ Price = BASE_PRICE * (1 + LAMBDA * Demand)
 
 ---
 
-## Screenshots / Plots
 
-- **Real-time plots** provided above
-- **Static multi-line plot (Model 1)** per vehicle type now included
-- **Static multi-line plot (Model 2)** now included
-
----
-
-## Report
-
-(If you have a PDF report, add it as `report.pdf` in the repo and reference it here.)
-
----
-
-## Contact
-
-For improvements, feature requests, or collaboration, feel free to open issues or PRs!
