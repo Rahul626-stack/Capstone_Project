@@ -13,7 +13,7 @@ This project is a **real-time dynamic pricing system** for urban parking lots, w
 - **Pandas** – Preprocessing and CSV operations
 - **Bokeh** – Visualization
 - **Panel** – Interactive UI with Bokeh support
-- **Google Colab / Jupyter** – Notebook interface (testing and demonstration)
+- **Google Colab** – Notebook interface (testing and demonstration)
 
 ---
 
