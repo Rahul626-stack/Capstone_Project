@@ -79,6 +79,7 @@ Price = BASE_PRICE * (1 + LAMBDA * Demand)
 pros:
 -  Richer contextual signals
 -  Controlled price range (\$10 to \$25)
+  
 cons:
 -  Slightly more compute-heavy
 
