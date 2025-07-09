@@ -88,6 +88,8 @@ cons:
 
 **Real-Time Price Plot (Model 2)**:&#x20;
 
+![Error_Loading](https://github.com/Rahul626-stack/Capstone_Project/blob/main/Model_2_real_time_plot.png)
+
 **Static Multi-line Plot (Model 2)**:&#x20;
 
 ---
